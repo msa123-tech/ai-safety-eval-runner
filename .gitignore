@@ -1,0 +1,22 @@
+# Virtual environment (each developer creates their own)
+.venv/
+
+# Python bytecode caches
+__pycache__/
+*.pyc
+
+# Test tool cache
+.pytest_cache/
+
+# Generated reports (re-creatable by running the tool)
+reports/
+
+# Secrets: never commit API keys
+.env
+.env.*
+!.env.example
+
+# OS / editor clutter
+.DS_Store
+.idea/
+.vscode/

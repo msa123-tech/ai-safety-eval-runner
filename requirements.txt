@@ -1,0 +1,5 @@
+# Data validation for test suites and reports (FastAPI uses it too in Milestone 2)
+pydantic>=2.12,<3
+
+# Automated testing
+pytest>=8
